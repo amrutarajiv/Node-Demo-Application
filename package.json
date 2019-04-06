@@ -1,0 +1,20 @@
+{
+    "name": "node-demo",
+    "version": "1.0.0",
+    "description": "Node Demo Application",
+    "author": "",
+    "license": "",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "mocha tests/*.js --exit"
+    },
+    "dependencies": {
+        "express": "^4.16.3",
+        "npm": "^6.9.0",
+        "supertest": "^4.0.2"
+    },
+    "devDependencies": {
+        "mocha": "^5.1.1",
+        "nodemon": "^1.18.10"
+    }
+}
